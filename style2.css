@@ -1,0 +1,831 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rowdies:wght@300&family=Zen+Kaku+Gothic+Antique&display=swap');
+*{
+    margin: 0%;
+    padding:0% ;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Rowdies', cursive;
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    width: 100vw;
+    height:80vh;
+    background-image: url('./images/front.png');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 150px;
+    color: white;
+    text-align:center;
+}
+.header-content h1{
+    font-size: 4vmin;
+    text-align: center;
+    
+}
+.header-content h2{
+    font-size: 4vmin;
+    color: #00D563;
+    
+}
+ul{
+    list-style:none;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 70px;
+    font-size: 4vmin;
+    text-decoration: none;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.nav-link li{
+    margin:0 30px;
+    color: white;
+}
+.ctn{
+    background-color: #00D563;
+    border-radius: 30px;
+    padding: 5px 30px;
+    overflow: hidden;
+}
+.logo{
+
+   left:50px;
+   size: 30px;
+}
+.button{
+    padding:10px 15px;
+    border:none;
+    background: #00D563;
+    color:whitesmoke; 
+    border-radius:4px;
+    font-size: 3vmin;
+    overflow: hidden;
+    
+}
+.button-icon{
+    color: blue;
+    font-size:4vmin ;
+}
+.section1{
+    
+    width: 100vw;
+    height: 35vh;
+    background-image: url('file:///C:/Users/Admin/OneDrive/Documents/cronj2/images/Mask%20Group%20109.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    align-items: center;
+    text-align: center;
+}
+
+
+.section1 h1{
+    font-size:40px;
+    color:white;
+    text-align:center;
+    width:100vw;
+    padding-top: 4%;
+    font-style: bold;
+    font-weight:8000;
+    position: absolute;
+    
+}
+.section1 h2{
+  font-size:20px;
+    color:white;
+    text-align:center;
+    width:100%;
+    padding-top: 8%;
+    
+}
+.section1 button{
+    border:none;
+    background-color: white; 
+    border-radius:5px;
+    overflow: hidden;
+    padding:8px 15px;
+}
+.button2-text{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section2{
+    width: 100vw;
+    height: 65vh;
+    background-image: url('./images/section2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    text-align:center;
+
+}
+    
+.section2 h1{
+    font-size:40px;
+    color:white;
+    text-align:center;
+    width:100%;
+    padding-top:8%;
+    font-style: bold;
+    font-weight:8000;
+    position: absolute;
+}
+.section2 h2{
+    font-size:20px;
+    color:white;
+    text-align:center;
+    width:100%;
+    padding-top:13%;
+    font-style: bold;
+    font-weight:8000;
+    position: absolute;
+}
+.section2 li{
+    padding-top:19%;
+    display: inline-flex;
+    
+}
+.venture{
+    padding:25px;
+}
+
+.row2{
+    width: 70vw;
+    display: inline-flex;
+    padding-left: 25vw;
+    
+    text-align:center;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+.section3 .section3logo{
+    position: absolute;
+    font-size: 10px;
+    padding-top:1vh;
+    
+}
+.section3 h1{
+    font-size:17px;
+    color: white;
+    padding-top:2vh;
+    
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25%;
+    text-align:center ;
+    
+}
+.section3{
+    width: 80%;
+    height: 40vh;
+    background-image: url('./images/section3.png');
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    text-align: left;
+    margin: 0 auto ;
+
+}
+.venture3{
+    padding:25px;
+}
+
+.row3{
+    width: 73vw;
+    display: inline-flex;
+    padding-left: 26vw;
+    text-align:center;
+    align-items: center;
+    justify-content:space-between;
+}
+.offerings-box{
+    width:80%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.section4{
+    width:100vw;
+    padding-top: 1%;
+}
+.WDS{
+    flex-basis: 50%;
+}
+.WDS-img{
+    flex-basis:50%;
+    padding-right: 1%;
+
+}
+.WDS-img img{
+    width: 35vw;
+    border-radius: 10px;
+}
+.WDS h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 1000;
+    color: black;
+}
+.WDS-desc{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.WDS-icon .fa{
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+}
+.WDS-text p{
+padding: 0 20px;
+text-align: initial;
+}
+.section5{
+    width: 100vw;
+    height: 62vh;
+    background-image: url('./images/section5img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    align-items: center;
+    text-align: center;
+}
+.section5 h1{
+    
+        font-size:40px;
+        color:white;
+        text-align:start;
+        width:100vw;
+        padding-top: 8%;
+        padding-left: 10%;
+        font-style: bolder;
+        font-weight:8000;
+        position: absolute;
+}
+.section5 p{
+    font-size:20px;
+      color:white;
+      text-align:start;
+      width: 100%;
+      padding-top: 20%;
+      padding-left:10%;
+}
+.section5 button{
+    border:none;
+    background-color:#00D563; 
+    border-radius:5px;
+    overflow: hidden;
+    padding:8px 15px;
+    text-align: start;
+}
+.buttonconsult-text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.venture4{
+    padding:30px;
+}
+
+.row4{
+    width: 75vw;
+    display: inline-flex;
+    padding-left: 17vw;
+    text-align:center;
+    align-items: center;
+    justify-content:space-between;
+}
+.section6-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.section6-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px grey;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.section6-col p{
+    font-size: 17px;
+}
+.section6-col:hover{
+    transform:translateY(7px);
+}
+
+.section7{
+    width: 100vw;
+    height:38vh;
+    background-image: url('./images/section7.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.section7-row{
+    width: 80%;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items:start;
+    padding-top: 5%;
+}
+.section7-col{
+
+    padding: 10px;
+    
+    
+    
+}
+.section7-col p{
+    font-size: 17px;
+}
+.venture5{
+    padding:30px;
+}
+
+.row5{
+    width: 70vw;
+    display: inline-flex;
+    padding-left: 25vw;
+    text-align:center;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+.section8{
+    width: 100vw;
+    height:50vh;
+    background-image: url('./images/slide2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.rowtools{
+    width: 80%;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items:start;
+    padding-top: 5%;
+    box-shadow: gray;
+}
+.section7-col{
+
+    padding: 10px;
+}
+.section9{
+    
+    width: 100vw;
+    height: 38vh;
+    background-image: url('./images//venture6.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    align-items: center;
+    text-align: center;
+}
+
+
+.section9 h1{
+    font-size:30px;
+    color:white;
+    text-align:center;
+    width:100vw;
+    padding-top: 4%;
+    font-style: bold;
+    font-weight:8000;
+    position: absolute;
+    
+}
+.section9 h2{
+  font-size:20px;
+    color:white;
+    text-align:center;
+    width:100%;
+    padding-top: 10%;
+    
+}
+.section9 button{
+    border:none;
+    background-color: white; 
+    border-radius:5px;
+    overflow: hidden;
+    padding:8px 15px;
+}
+.venture7{
+    padding:30px;
+}
+
+.row7{
+    width: 70vw;
+    display: inline-flex;
+    padding-left: 20vw;
+    text-align:center;
+    align-items: center;
+    justify-content:space-between;
+}
+.hiring-box{
+    width:80%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.section10{
+    width:100vw;
+    padding-top: 1%;
+}
+.hiring{
+    flex-basis: 50%;
+}
+.hiring-img{
+    flex-basis:50%;
+    padding-right: 1%;
+
+}
+.hiring-img img{
+    width: 35vw;
+    border-radius: 10px;
+}
+.hiring h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 1000;
+    color: black;
+}
+.hiring-desc{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.hiring-icon .fa{
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+}
+.hiring-text p{
+padding: 0 20px;
+text-align: initial;
+}
+.venture8{
+    padding:30px;
+}
+
+.row8{
+    width: 75vw;
+    display: inline-flex;
+    padding-left: 20vw;
+    text-align:center;
+    align-items: center;
+    justify-content:space-between;
+}
+.modern-wrapper{
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:50px;
+}
+.micon-title{
+    display: flex;
+    align-items: center;
+}
+.micon-title img{
+    margin-right: 20px;
+}
+.icon-title h2{
+    font-size: 20px;
+}
+.modern-box{
+    box-shadow: 0px 0px 30px rgba(128, 128, 128, 0.521);
+    padding: 30px;
+    border-radius: 15px;
+}
+.section12{
+    
+    width: 100vw;
+    height: 38vh;
+    background-image: url('./images//venture6.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    align-items: center;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.section12 h1{
+    font-size:30px;
+    color:white;
+    text-align:center;
+    width:100vw;
+    padding-top: 4%;
+    font-style: bold;
+    font-weight:8000;
+    position: absolute;
+    
+}
+.section12 h2{
+  font-size:18px;
+    color:white;
+    text-align:center;
+    width:100%;
+    padding-top: 10%;
+    
+}
+.section12 button{
+    border:none;
+    background-color: white; 
+    border-radius:5px;
+    overflow: hidden;
+    padding:8px 15px;
+}
+.venture9{
+    padding:30px;
+}
+
+.row9{
+    width: 73vw;
+    display: inline-flex;
+    padding-left: 20vw;
+    text-align:center;
+    align-items: center;
+    justify-content:space-between;
+}
+.q-box{
+    width:90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.section13{
+    width:100vw;
+    padding-top: 1%;
+}
+.q{
+    flex-basis: 50%;
+}
+.q-img{
+    flex-basis:50%;
+    padding-right: 1%;
+
+}
+.q-img img{
+    width: 44vw;
+    border-radius: 5px;
+    padding-right: 200px;
+}
+.q h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 1000;
+    color: black;
+}
+.q-desc{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.q-icon .fa{
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+}
+.q-text p{
+padding: 0 20px;
+text-align: initial;
+}
+.section14{
+    
+    width: 80vw;
+    height: 38vh;
+    background-image: url('./images//venture6.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.section14 h1{
+    font-size:30px;
+    color:white;
+    text-align: left;
+    padding-left: 20px;
+    width:100vw;
+    padding-top: 4%;
+    font-style: bold;
+    font-weight:8000;
+    position: absolute;
+    
+}
+.section14 h2{
+  font-size:13px;
+    color:white;
+    padding-left: 14vw;
+    width:100%;
+    padding-top: 14%;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+.section14 button{
+    border:none;
+    background-color: white; 
+    border-radius:5px;
+    overflow: hidden;
+    padding:8px 15px;
+    margin-top: 10px;
+    }
+ 
+   .venture10{
+    padding:30px;
+}
+
+.row10{
+    width: 58vw;
+    display: flex;
+    padding-left: 40vw;
+    text-align:center;
+    align-items: center;
+    justify-content:space-between;
+}
+.title{
+    text-align:center;
+
+}
+.section15{
+    margin-top: 20px;
+    background:rgba(219, 216, 216, 0.178);
+    padding:60px 0px;
+}
+.services-wrapper{
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+}
+.sicon-title{
+    display: flex;
+    align-items: center;
+}
+.sicon-title img{
+    margin-right: 20px;
+}
+.sicon-title h2{
+    font-size: 20px;
+}
+.services-box{
+    
+    padding: 30px;
+    
+}
+.section16{
+    
+    width: 80vw;
+    height: 43vh;
+    background-image: url('./images/section16.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 40px auto;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+
+.section16 h1{
+    font-size:30px;
+    color:white;
+    width:100vw;
+    padding-top: 4%;
+    font-style: bold;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+.section16 h2{
+  font-size:13px;
+    color:white;
+    padding-left: 14vw;
+    width:100%;
+    padding-top: 4%;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+.section16 .button16{
+    border:none;
+    size: 5px;
+    background-color: white; 
+    border-radius:5px;
+    overflow: hidden;
+    padding:1px 15px;
+    text-align: right;
+    margin-top: 40px;
+    
+}
+.section17{
+    
+    width: 100vw;
+    height: 40vh;
+    background-image: url('./images//venture6.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    align-items: center;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.section17 h1{
+    font-size:25px;
+    color:white;
+    text-align:center;
+    width:100vw;
+    padding-top: 4%;
+    font-style: bold;
+    font-weight:8000;
+    position: absolute;
+    
+}
+.section17 h2{
+  font-size:14px;
+    color:white;
+    text-align:center;
+    width:100%;
+    padding-top: 12%;
+    
+}
+.section17 button{
+    border:none;
+    background-color: white; 
+    border-radius:5px;
+    overflow: hidden;
+    padding:8px 15px;
+}
+.venture11{
+    padding:30px;
+}
+
+.row11{
+    width: 59vw;
+    display: flex;
+    padding-left: 35vw;
+    text-align:center;
+    align-items: center;
+    justify-content:space-between;
+}
+
